@@ -4,8 +4,9 @@
 using namespace std;
 
 int main() {
-  int N = 0 , M = -1, X = -1;
+  int N, M, X;
  EXIT:
+  N = 0 , M = -1, X = -1;
   while (N <= 1) {
     cout << "抽選希望の人数は？ ＞ ";
     cin >> N;
