@@ -33,9 +33,9 @@ int main() {
     int x = mt()%N;
     if (!ischosen[x]) {
       cout << x << " ";
+      ischosen[x] = true;
+      chosen_n++;
     }
-    ischosen[x] = true;
-    chosen_n++;
   }
   cout << endl;
   return 0;
